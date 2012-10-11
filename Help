@@ -1,1 +1,13 @@
-Help me 2!
+How to remotely connect to gitHub from the local Repository and synch your changes:
+
+Note: Your local folder name should match the remote repository name.
+
+mkdir ~/EST-Global
+cd ~/EST-Global/
+git init
+git remote add origin https://github.com/ESTSky/EST-Global.git
+git pull origin master
+edit Help
+git add Help
+git commit -m 'some check in'
+git push origin master
